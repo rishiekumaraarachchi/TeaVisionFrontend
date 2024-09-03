@@ -1,0 +1,35 @@
+.header-wrapper {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  position: fixed;
+  z-index: 102;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.header-left {
+  padding-left: 5vw;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.header-right {
+}
+.menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.menu-items {
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 1s;
+  text-decoration: none;
+  color: green;
+}
+.menu-items:hover {
+  text-shadow: 5px 10px 24px #00ff04;
+}
+
+
